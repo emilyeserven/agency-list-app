@@ -11,6 +11,11 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.agency-logo img {
+  width: 100%;
+  max-height: 300px;
+}
+
 .home .title-holder {
   top: 20vh;
   position: relative;
@@ -46,6 +51,41 @@ body {
 .home .search-holder a:hover {
   background-color: #fff;
   color: #000;
+}
+
+.search {
+  margin-top: 10vh;
+  padding-bottom: 10vh;
+}
+.search .search-card {
+  margin-bottom: 5em;
+}
+.search .agency-name {
+  font-size: 2em;
+}
+.search .agency-category {
+  font-size: 1.5em;
+}
+.search .agency-locations {
+  font-size: 1em;
+}
+.search .profile-link .button {
+  border: #000 2px solid;
+  padding: .2em .75em;
+  color: #000;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 992px) {
+  .search .agency-name {
+    font-size: 3em;
+  }
+  .search .agency-category {
+    font-size: 2.5em;
+  }
+  .search .agency-locations {
+    font-size: 1.5em;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
