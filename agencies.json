@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Agency A",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Creative"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }, {
+            "office": "Los Angeles",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }],
+        "year": 2016
+    },
+    {
+        "name": "Agency B",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Media"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }],
+        "year": 2010
+    },
+    {
+        "name": "Agency C",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Creative"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }, {
+            "office": "Boston",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }],
+        "year": 2015
+    },
+    {
+        "name": "Agency D",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Game Development"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }, {
+            "office": "Boston",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }, {
+            "office": "Los Angeles",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }],
+        "year": 1990
+    }
+]
