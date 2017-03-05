@@ -1,0 +1,23 @@
+{
+  "name": "agency-list-app",
+  "version": "0.1.0",
+  "description": "App for listing various agencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyeserven/agency-list-app.git"
+  },
+  "keywords": [
+    "agency",
+    "directory"
+  ],
+  "author": "Emily Serven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyeserven/agency-list-app/issues"
+  },
+  "homepage": "https://github.com/emilyeserven/agency-list-app#readme"
+}
