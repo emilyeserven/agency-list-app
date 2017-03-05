@@ -16,6 +16,39 @@ body {
   max-height: 300px;
 }
 
+.card-bg-1 {
+  background-color: red;
+}
+.card-bg-2 {
+  background-color: blue;
+}
+
+.button {
+  padding: .2em .75em;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  display: inline-block;
+}
+.button.white {
+  color: #fff;
+  border: 2px #fff solid;
+}
+.button.white:hover {
+  background-color: #fff;
+  color: #000;
+}
+.button.black {
+  color: #000;
+  border: 2px #000 solid;
+}
+.button.black:hover {
+  background-color: #000;
+  color: #fff;
+}
+.button:hover {
+  text-decoration: none;
+}
+
 .home .title-holder {
   top: 20vh;
   position: relative;
@@ -53,12 +86,17 @@ body {
   color: #000;
 }
 
-.search {
+.page.top-pad {
   margin-top: 10vh;
   padding-bottom: 10vh;
 }
+
+.search {
+  /** ? **/
+}
 .search .search-card {
   margin-bottom: 5em;
+  padding-top: 1em;
 }
 .search .agency-name {
   font-size: 2em;
@@ -68,12 +106,6 @@ body {
 }
 .search .agency-locations {
   font-size: 1em;
-}
-.search .profile-link .button {
-  border: #000 2px solid;
-  padding: .2em .75em;
-  color: #000;
-  font-size: 2em;
 }
 
 @media screen and (max-width: 992px) {
