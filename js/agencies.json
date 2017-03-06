@@ -2,7 +2,7 @@
     {
         "name": "Agency A",
         "logo": "./img/placeholder.jpg",
-        "category": ["Creative"],
+        "category": ["Creative", "Media"],
         "locations": [{
             "office": "New York City",
             "email": "hello@example.com",

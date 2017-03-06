@@ -44,6 +44,9 @@ body {
     &:hover {
         text-decoration: none;
     }
+    &.centered {
+        margin: 0 auto;
+    }
 }
 .home {
     .title-holder {
@@ -93,7 +96,15 @@ body {
     /** ? **/
     .search-card {
         margin-bottom: 5em;
-        padding-top: 1em;
+        padding: 1em 1.25em;
+        background-color: #fff;
+        width: 24%;
+        margin-right:1%;
+        display:inline-block;
+        vertical-align:top;
+        &:last-of-type {
+            margin-right:0%;
+        }
     }
     .agency- {
         &name {
@@ -107,7 +118,10 @@ body {
         }
     }
 }
-
+.profile-holder {
+    background-color: #fff;
+    padding: 1.5em 1.25em;
+}
 @media screen and (max-width:992px) {
     .search {
         .agency- {

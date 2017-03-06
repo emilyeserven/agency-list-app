@@ -48,6 +48,9 @@ body {
 .button:hover {
   text-decoration: none;
 }
+.button.centered {
+  margin: 0 auto;
+}
 
 .home .title-holder {
   top: 20vh;
@@ -96,7 +99,15 @@ body {
 }
 .search .search-card {
   margin-bottom: 5em;
-  padding-top: 1em;
+  padding: 1em 1.25em;
+  background-color: #fff;
+  width: 24%;
+  margin-right: 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+.search .search-card:last-of-type {
+  margin-right: 0%;
 }
 .search .agency-name {
   font-size: 2em;
@@ -106,6 +117,11 @@ body {
 }
 .search .agency-locations {
   font-size: 1em;
+}
+
+.profile-holder {
+  background-color: #fff;
+  padding: 1.5em 1.25em;
 }
 
 @media screen and (max-width: 992px) {

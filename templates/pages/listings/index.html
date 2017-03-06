@@ -1,34 +1,19 @@
 <div class="search page top-pad">
     <div class="search-cards-holder">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 search-card card-bg-2">
+            <div class="search-card" ng-repeat="agency in agencies">
                 <div class="agency-logo">
-                    <img src="img/placeholder.jpg" />
+                    <img ng-src="{{agency.logo}}" />
                 </div>
-                <h4 class="agency-name">Agency A</h4>
+                <h4 class="agency-name">{{agency.name}}</h4>
                 <p class="agency-category">
-                    <span>Creative</span>
+                    <span>{{agency.category.join(', ')}}</span>
                 </p>
                 <p class="agency-locations">
-                    <span>New York, Los Angelas</span>
+                    <span ng-repeat="location in agency.locations">{{location.office}}{{$last ? '' : ', '}}</span>
                 </p>
                 <div class="profile-link">
-                    <a class="button white" href="profile.html">More</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 search-card card-bg-1">
-                <div class="agency-logo">
-                    <img src="img/placeholder.jpg" />
-                </div>
-                <h4 class="agency-name">B Agency</h4>
-                <p class="agency-category">
-                    <span>Media</span>
-                </p>
-                <p class="agency-locations">
-                    <span>New York</span>
-                </p>
-                <div class="profile-link">
-                    <a class="button white" href="profile.html">More</a>
+                    <a class="button black centered" href="./#!/agency/{{agencies.indexOf(agency)}}">More</a>
                 </div>
             </div>
         </div>
