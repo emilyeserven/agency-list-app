@@ -1,25 +1,25 @@
 [
     {
-        "name": "Agency A",
+        "name": "RFA",
         "logo": "./img/placeholder.jpg",
         "category": ["Creative", "Media"],
         "locations": [{
             "office": "New York City",
-            "email": "hello@example.com",
+            "email": "hello-nyc@example.com",
             "phone": "203-203-2033",
             "address": "123 testing lane",
-            "website": "www.example.com"
+            "website": "www.nyc.example.com"
         }, {
             "office": "Los Angeles",
-            "email": "hello@example.com",
-            "phone": "203-203-2033",
+            "email": "hello-la@example.com",
+            "phone": "843-203-2033",
             "address": "123 testing lane",
-            "website": "www.example.com"
+            "website": "www.la.example.com"
         }],
         "year": 2016
     },
     {
-        "name": "Agency B",
+        "name": "AKWA",
         "logo": "./img/placeholder.jpg",
         "category": ["Media"],
         "locations": [{
@@ -32,7 +32,7 @@
         "year": 2010
     },
     {
-        "name": "Agency C",
+        "name": "Small Spaceship",
         "logo": "./img/placeholder.jpg",
         "category": ["Creative"],
         "locations": [{
@@ -51,7 +51,7 @@
         "year": 2015
     },
     {
-        "name": "Agency D",
+        "name": "Droga6",
         "logo": "./img/placeholder.jpg",
         "category": ["Game Development"],
         "locations": [{

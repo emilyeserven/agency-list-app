@@ -20,16 +20,18 @@
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="contact-holder">
-                    <h2 class="contact-heading">Contact</h2>
-                    <p class="agency-website">
-                        <a href="www.github.com">www.example.com</a>
-                    </p>
-                    <p class="agency-phone">
-                        <a href="tel:8888888888">(888) 888-8888</a>
-                    </p>
-                    <p class="agency-email">
-                        <a href="mailto:">hello@creativeplace.com</a>
-                    </p>
+                    <div class="office-contact" ng-repeat="location in agencies[whichItem].locations">
+                        <h2 class="contact-heading">{{location.office}}</h2>
+                        <p class="agency-website">
+                            <a href="{{location.website}}">{{location.website}}</a>
+                        </p>
+                        <p class="agency-phone">
+                            <a href="tel:{{location.phone}}">{{location.phone}}</a>
+                        </p>
+                        <p class="agency-email">
+                            <a href="mailto:{{location.email}}">{{location.email}}</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

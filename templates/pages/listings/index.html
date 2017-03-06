@@ -1,7 +1,73 @@
 <div class="search page top-pad">
+    <h1 style="color:#fff; margin-top:0; margin-bottom: 1em;">Agency Listings</h1>
+    <div class="row">
+        <div class="search-form-holder">
+            <p>
+                <label>Name Search:</label>
+                <input ng-model="agency_name" placeholder="Search Agencies" autofocus />&nbsp;&nbsp;
+                <label><input type="radio" ng-model="direction" name="direction" checked /> ascending</label>&nbsp;&nbsp;
+                <label><input type="radio" ng-model="direction" name="direction" value="reverse" /> descending</label>
+            </p> <!--
+            <p>
+                <label>Category Search:</label>
+                <select ng-model="agency_category" ng-options="agency.category for agency in agencies">
+                </select>
+            </p> -->
+            <p>
+                <label>Category Search:</label>
+                <!--<input ng-model="agency_locations" placeholder="Search Locations" />-->
+                <label>&nbsp;&nbsp;
+                    <input type="radio" ng-model="agency_category" name="No Filter" value="" />
+                    No filter
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" ng-model="agency_category" name="Creative" value="Creative" />
+                    Creative
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" ng-model="agency_category" name="Game Development" value="Game Development" />
+                    Game Development
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" ng-model="agency_category" name="Media" value="Media" />
+                    Media
+                </label>
+            </p>
+            <p>
+                <label>Location Search:</label>
+                <!--<input ng-model="agency_locations" placeholder="Search Locations" />-->
+                <label>&nbsp;&nbsp;
+                    <input type="radio" ng-model="agency_locations" name="No Filter" value="" />
+                    No filter
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" ng-model="agency_locations" name="New York City" value="New York City" />
+                    New York City
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" ng-model="agency_locations" name="Boston" value="Boston" />
+                    Boston
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" ng-model="agency_locations" name="Los Angeles" value="Los Angeles" />
+                    Los Angeles
+                </label>
+            </p> <!--
+            <p>
+                <label>
+                    <input type="radio" ng-model="direction" name="direction" checked />
+                    ascending
+                </label>
+                <label>
+                    <input type="radio" ng-model="direction" name="direction" value="reverse" />
+                    descending
+                </label>
+            </p>-->
+        </div>
+    </div>
     <div class="search-cards-holder">
         <div class="row">
-            <div class="search-card" ng-repeat="agency in agencies">
+            <div class="search-card" ng-repeat="agency in agencies | filter: {name: agency_name, category: agency_category, locations: {office: agency_locations}} | orderBy: 'name':direction">
                 <div class="agency-logo">
                     <img ng-src="{{agency.logo}}" />
                 </div>

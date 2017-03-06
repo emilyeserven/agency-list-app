@@ -88,7 +88,7 @@ body {
 }
 .page {
     &.top-pad {
-        margin-top: 10vh;
+        margin-top: 8vh;
         padding-bottom: 10vh;
     }
 }
@@ -116,6 +116,11 @@ body {
         &locations {
             font-size: 1em;
         }
+    }
+    &-form-holder {
+        background-color: #fff;
+        margin-bottom: 1em;
+        padding: 1em 1.25em;
     }
 }
 .profile-holder {
