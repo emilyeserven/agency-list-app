@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/emilyeserven/agency-list-app/issues"
   },
-  "homepage": "https://github.com/emilyeserven/agency-list-app#readme"
+  "homepage": "https://github.com/emilyeserven/agency-list-app#readme",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2",
+    "angular-ui-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {}
 }
