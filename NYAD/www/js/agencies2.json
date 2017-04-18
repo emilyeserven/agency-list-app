@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Droga5",
+        "shortname": "droga5",
+        "tagline": "Global advertising agency, works across all platforms including broadcast print digital and social experiential and out-of-home.",
+        "category": ["Digital", "Advertising", "Agency"],
+        "size": "501-1000",
+        "distance": 5.6,
+        "address": "120 Wall St New York NY 10005",
+        "year": 2006
+    },
+
+    {
+        "name": "NBC Sports",
+        "shortname": "nbc-sports",
+        "tagline": "Your home for the Sunday Night Football",
+        "category": ["Digital", "Sports", "Agency"],
+        "size": "10K+",
+        "distance": 0,
+        "address": "1 Blachley Rd, Stamford, CT 06902",
+        "year": 1946
+    },
+
+    {
+        "name": "Big Spaceship",
+        "shortname": "big-spaceship",
+        "tagline": "We are a different kind of digital agency. We bring together product design, brand communications, social connections and content to help businesses thrive.",
+        "category": ["Digital", "Design", "Business", "Agency"],
+        "size": "51-200",
+        "distance": 6.9,
+        "address": "55 Washington St, Brooklyn, NY 11201",
+        "year": 2000
+    },
+
+    {
+        "name": "AKQA",
+        "shortname": "akqa",
+        "tagline": "AKQA is a digital agency that specializes in creating digital services and products. ",
+        "category": ["Digital", "Products", "Agency"],
+        "size": "2000+",
+        "distance": 2.0,
+        "address": "17th Floor United States, 114 5th Ave, New York, NY 10011",
+        "year": 2001
+    },
+
+    {
+        "name": "AMP",
+        "shortname": "amp",
+        "tagline": "We are a team of talented characters who happen to love creating smart ideas for those who will have us. We ask the questions no one else asks to get to the smartest ideas.",
+        "category": ["Digital-Marketing", "Advertisement", "Agency"],
+        "size": "51-200",
+        "distance": 0.2,
+        "address": "4 Rosehill Dr, Armonk, NY 10504",
+        "year": 2002
+    },
+
+    {
+        "name": "Hubspot",
+        "shortname": "hubspot",
+        "tagline": "HubSpot is an inbound marketing and sales platform that helps companies attract visitors, convert leads, and close customers.",
+        "category": ["Marketing", "Sales", "Agency"],
+        "size": "1001-5000",
+        "distance": 210,
+        "address": "Davenport, 25 First St, Cambridge, MA 02141",
+        "year": 2006
+    },
+
+    {
+        "name": "Riot Games",
+        "shortname": "riot-games",
+        "tagline": "We Are Rioters ... Riot Games London · Designing Experiences Beyond the Game · Forging Your Path in Experience Design ",
+        "category": ["Gaming", "Design", "Agency"],
+        "size": "1001-5000",
+        "distance": 0,
+        "address": "",
+        "year": 2006
+    },
+
+    {
+        "name": "Rockstar Games",
+        "shortname": "rockstar-games",
+        "tagline": "Rockstar Games, Inc. is an American video game publisher, best known for their Grand Theft Auto, Red Dead, Midnight Club, Max Payne, and Manhunt series of video games.",
+        "category": ["Gaming", "Design", "Agency"],
+        "size": "1001-5000",
+        "distance": 2.7,
+        "address": "622 Broadway, New York, NY 10012",
+        "year": 1998
+    },
+
+    {
+        "name": "Atari",
+        "shortname": "atari",
+        "tagline": "Atari is a multi-platform, global interactive entertainment and licensing company. The original innovator of video gaming.",
+        "category": ["Gaming", "Design", "Agency"],
+        "size": "11-50",
+        "distance": 1.3,
+        "address": "475 Park Ave S, New York, NY 10016",
+        "year": 1972
+    },
+
+    {
+        "name": "Disney Interactive Studios",
+        "shortname": "disney-interactive",
+        "tagline": "Disney Interactive is the digital entertainment part of The Walt Disney Company.",
+        "category": ["Gaming", "Design", "Creativity", "Agency"],
+        "size": "2000",
+        "distance": 0,
+        "address": "500 South Buena Vista Street",
+        "year": 2008
+    },
+
+    {
+        "name": "Zappling Studios",
+        "shortname": "zappling-studios",
+        "tagline": "THE MOST IMPORTANT THING TO US IS BUILDING GAMES YOU LOVE. Zapling Studios is a New York based team who strives to create awesome games.",
+        "category": ["Gaming", "Design", "Agency"],
+        "size": "2-10",
+        "distance": 0,
+        "address": "",
+        "year": 0
+    },
+
+    {
+        "name": "PLYFE",
+        "shortname": "plyfe",
+        "tagline": "The Plyfe Platform allows anyone to create rich, interactive experiences. No Coding Required.",
+        "category": ["Gaming", "Design", "Agency"],
+        "size": "11-50",
+        "distance": 5.2,
+        "address": "Lower East Side - 277 Grand St, New York, NY 10002",
+        "year": 2011
+    }
+]

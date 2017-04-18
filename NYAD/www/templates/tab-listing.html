@@ -8,9 +8,9 @@
         </div>
         <div class="search-cards-holder">
             <ion-list>
-                <ion-item class="search-card item-thumbnail-left" ng-repeat="agency in agencies | filter: {name: agency_name, category: agency_category} | orderBy: 'name':direction" href="#/tab/agency/{{agency.shortname}}">
+                <ion-item class="search-card item-thumbnail-left" ng-repeat="agency in agencies | filter: {name: agency_name, category: agency_category} | orderBy: 'name':ascending" href="#/tab/agency/{{agency.shortname}}">
 
-                    <img ng-src="{{agency.logo}}" />
+                    <img ng-src="img/{{agency.shortname}}.jpg" />
                     <h3 class="agency-name">{{agency.name}}</h3>
                     <p class="agency-category">
                         <span>{{agency.category.join(', ')}}</span>
