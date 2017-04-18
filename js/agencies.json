@@ -11,7 +11,7 @@
     },
     {
         "name": "AKWA",
-        "shortname": "rfa",
+        "shortname": "akwa",
         "tagline": "Content, content, content!",
         "category": ["Media"],
         "size": "501-1000",
@@ -21,7 +21,7 @@
     },
     {
         "name": "Small Spaceship",
-        "shortname": "rfa",
+        "shortname": "small-spaceship",
         "tagline": "Content, content, content!",
         "category": ["Creative"],
         "size": "501-1000",
@@ -31,7 +31,7 @@
     },
     {
         "name": "Droga6",
-        "shortname": "rfa",
+        "shortname": "droga6",
         "tagline": "Content, content, content!",
         "category": ["Game Development"],
         "size": "501-1000",

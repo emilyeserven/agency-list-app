@@ -1,78 +1,42 @@
 [
     {
         "name": "RFA",
-        "logo": "./img/placeholder.jpg",
+        "shortname": "rfa",
+        "tagline": "Content, content, content!",
         "category": ["Creative", "Media"],
-        "locations": [{
-            "office": "New York City",
-            "email": "hello-nyc@example.com",
-            "phone": "203-203-2033",
-            "address": "123 testing lane",
-            "website": "www.nyc.example.com"
-        }, {
-            "office": "Los Angeles",
-            "email": "hello-la@example.com",
-            "phone": "843-203-2033",
-            "address": "123 testing lane",
-            "website": "www.la.example.com"
-        }],
+        "size": "501-1000",
+        "distance": 1.1,
+        "address": "123 heyo road",
         "year": 2016
     },
     {
         "name": "AKWA",
-        "logo": "./img/placeholder.jpg",
+        "shortname": "akwa",
+        "tagline": "Content, content, content!",
         "category": ["Media"],
-        "locations": [{
-            "office": "New York City",
-            "email": "hello@example.com",
-            "phone": "203-203-2033",
-            "address": "123 testing lane",
-            "website": "www.example.com"
-        }],
+        "size": "501-1000",
+        "distance": 1.1,
+        "address": "123 heyo road",
         "year": 2010
     },
     {
         "name": "Small Spaceship",
-        "logo": "./img/placeholder.jpg",
+        "shortname": "small-spaceship",
+        "tagline": "Content, content, content!",
         "category": ["Creative"],
-        "locations": [{
-            "office": "New York City",
-            "email": "hello@example.com",
-            "phone": "203-203-2033",
-            "address": "123 testing lane",
-            "website": "www.example.com"
-        }, {
-            "office": "Boston",
-            "email": "hello@example.com",
-            "phone": "203-203-2033",
-            "address": "123 testing lane",
-            "website": "www.example.com"
-        }],
+        "size": "501-1000",
+        "distance": 1.1,
+        "address": "123 heyo road",
         "year": 2015
     },
     {
         "name": "Droga6",
-        "logo": "./img/placeholder.jpg",
+        "shortname": "droga6",
+        "tagline": "Content, content, content!",
         "category": ["Game Development"],
-        "locations": [{
-            "office": "New York City",
-            "email": "hello@example.com",
-            "phone": "203-203-2033",
-            "address": "123 testing lane",
-            "website": "www.example.com"
-        }, {
-            "office": "Boston",
-            "email": "hello@example.com",
-            "phone": "203-203-2033",
-            "address": "123 testing lane",
-            "website": "www.example.com"
-        }, {
-            "office": "Los Angeles",
-            "email": "hello@example.com",
-            "phone": "203-203-2033",
-            "address": "123 testing lane",
-            "website": "www.example.com"
-        }],
+        "size": "501-1000",
+        "distance": 1.1,
+        "address": "123 heyo road",
         "year": 1990
     }
 ]

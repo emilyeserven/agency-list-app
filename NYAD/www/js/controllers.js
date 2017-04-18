@@ -39,7 +39,7 @@ angular.module('starter.controllers', [])
 .controller('ListingController', function($scope, $http, $state) {
     $http.get('js/agencies.json').then(function(data) {
         $scope.agencies = data.data;
-        $scope.whichItem = $state.params.itemId;
+        $scope.whichItem = $state.params.agencyId;
         $scope.agency_name = "";
         $scope.agency_category = "";
         $scope.agency_locations = "";
