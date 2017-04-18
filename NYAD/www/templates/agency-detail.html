@@ -1,0 +1,49 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{agencies[whichItem].name}}">
+    <ion-content class="padding">
+<div class="profile page top-pad" ng-model="agencies">
+    <div class="back-button">
+        <a class="button white" href="./#!/listings">Back to Listings</a>
+    </div>
+    <div class="profile-holder">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <div class="agency-logo">
+                    <img ng-src="{{agencies[whichItem].logo}}" />
+                </div>
+                <div class="info-holder">
+                    <p>
+                        <h1 class="agency-name">{{agencies[whichItem].name}}</h1>
+                        <h2 class="agency-category"><span>{{agencies[whichItem].category.join(', ')}}</span></h2>
+                        <p>
+                            <span ng-repeat="location in agencies[whichItem].locations">{{location.office}}{{$last ? '' : ', '}}</span>
+                        </p>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="contact-holder">
+                    <div class="office-contact" ng-repeat="location in agencies[whichItem].locations">
+                        <h2 class="contact-heading">{{location.office}}</h2>
+                        <p class="agency-website">
+                            <a href="{{location.website}}">{{location.website}}</a>
+                        </p>
+                        <p class="agency-phone">
+                            <a href="tel:{{location.phone}}">{{location.phone}}</a>
+                        </p>
+                        <p class="agency-email">
+                            <a href="mailto:{{location.email}}">{{location.email}}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</ion-content>
+</ion-view>

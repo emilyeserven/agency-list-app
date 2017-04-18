@@ -1,0 +1,78 @@
+[
+    {
+        "name": "RFA",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Creative", "Media"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello-nyc@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.nyc.example.com"
+        }, {
+            "office": "Los Angeles",
+            "email": "hello-la@example.com",
+            "phone": "843-203-2033",
+            "address": "123 testing lane",
+            "website": "www.la.example.com"
+        }],
+        "year": 2016
+    },
+    {
+        "name": "AKWA",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Media"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }],
+        "year": 2010
+    },
+    {
+        "name": "Small Spaceship",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Creative"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }, {
+            "office": "Boston",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }],
+        "year": 2015
+    },
+    {
+        "name": "Droga6",
+        "logo": "./img/placeholder.jpg",
+        "category": ["Game Development"],
+        "locations": [{
+            "office": "New York City",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }, {
+            "office": "Boston",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }, {
+            "office": "Los Angeles",
+            "email": "hello@example.com",
+            "phone": "203-203-2033",
+            "address": "123 testing lane",
+            "website": "www.example.com"
+        }],
+        "year": 1990
+    }
+]
