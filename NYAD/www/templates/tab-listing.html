@@ -1,0 +1,28 @@
+<ion-view view-title="Agency Listing">
+    <ion-content class="padding search page">
+        <div class="item-input-inset bar-light">
+            <label class="item-input-wrapper">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" ng-model="query" placeholder="Search">
+            </label>
+        </div>
+        <div class="search-cards-holder">
+            <ion-list>
+                <ion-item class="search-card item-thumbnail-left" ng-repeat="agency in agencies | filter: {name: agency_name, category: agency_category} | orderBy: 'name':direction" href="#/tab/agency/{{agency.shortname}}">
+
+                    <img ng-src="{{agency.logo}}" />
+                    <h3 class="agency-name">{{agency.name}}</h3>
+                    <p class="agency-category">
+                        <span>{{agency.category.join(', ')}}</span>
+                    </p>
+                    <p class="agency-locations">
+                        <span ng-repeat="location in agency.locations">{{location.office}}{{$last ? '' : ', '}}</span>
+                    </p>
+                    <p class="agency-tagline">
+                        {{agency.tagline}}
+                    </p>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>
